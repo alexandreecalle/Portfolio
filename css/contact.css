@@ -23,11 +23,14 @@ z-index: 10;
 -webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 
+
 }
 
 .polygone-rose{
     background-color: #89023e;
     height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 .contact h1{
@@ -53,10 +56,29 @@ font-size: 80px;
 
 /* Formulaire */
 
+.email {
+    margin-left: 485px; 
+    padding: 0;
+    
+   
+}
+.email img{
+    height: 50vh;
+    width: 1400px;
+}
+
+.email2 {
+    margin-left: 385px; 
+    padding: 0;
+    
+   
+}
+.email2 img{
+    height: 50vh;
+    width: 1600px;
+}
 form{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+   
 }
 #name,#email,#message{
     background-color:rgb(255, 250, 247, 0.4);
@@ -77,7 +99,7 @@ input::placeholder{
 }
 
 #email{
-    margin-bottom: 5px;
+    
 }
 #message{
     margin-bottom: 5px;
