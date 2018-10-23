@@ -1,0 +1,51 @@
+/*Scrollbar*/
+::-webkit-scrollbar{
+    width: 20px;
+    background-color: #0a2239;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #f25252;
+}
+
+/*Footer*/
+
+footer{
+    height: 14vh;
+    background-color: #0a2239;
+    
+}
+
+
+.logo-footer{
+ padding-top: 50px; 
+ justify-content: center;  
+}
+
+.logo-footer img{
+   margin-left: 40px;
+}
+
+.copyright{
+    padding-top: 50px; 
+ justify-content: center; 
+ color: antiquewhite;
+}
+.copyright h3{
+font-size: 20px;
+font-family: "Montserrat";
+
+}
+
+
+/*Navbar*/
+.nav-link{
+    color: antiquewhite;
+    font-size: 19px;
+    text-decoration-color: #f25252;
+    font-family: "Montserrat"
+}
+
+
+
+

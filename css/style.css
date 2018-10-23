@@ -1,0 +1,85 @@
+
+
+
+/*Header-Accueil*/
+.triangle-noir{
+    background-color: #0a2239;
+    height: 100vh;  
+    position: absolute;
+z-index: 10;
+-webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
+clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
+
+
+}
+
+.nav{
+    padding-left: 150px;
+}
+
+
+
+#slidy-container { 
+
+  overflow: hidden; 
+  margin: 0; 
+  padding: 0;
+ z-index:9;
+ height: 100vh;
+ 
+ 
+
+
+}
+#slidy img{
+    width: 100vw;
+    overflow: hidden;
+    position: static;
+} 
+
+.logo-header
+{
+-webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+ clip-path: polygon(0 0, 0% 100%, 100% 100%);
+background-color: #f25252;
+height: 300px;
+width: 300px;
+margin-left: 100px;
+margin-top: 100px;
+position: static;
+
+
+}
+
+.logo-header .img{
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+.text-logo-header{
+    color: #f25252;
+    font-family: "Norwester";
+    padding-left: 100px;
+    letter-spacing: 3px;
+}
+
+h2 span{
+    color: #89023e;
+}
+
+.text-titre {
+    color: #f25252;
+    padding-left: 100px;
+    font-family: "Norwester";
+}
+
+.text-titre h3{
+    font-size: 15px;
+    padding: 20px 0;
+    
+}
+
+
+/*Footer*/
+
+

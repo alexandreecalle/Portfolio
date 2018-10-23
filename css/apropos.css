@@ -1,0 +1,26 @@
+header{
+    background-color:#89023e;
+}
+
+
+.logo {
+    padding: 20px;
+}
+
+
+.nav{
+    padding-left: 150px;
+}
+
+
+.nav-link{
+    color: antiquewhite;
+    font-size: 20px;
+    
+}
+
+
+.section1{
+    background-color: #89023e;
+    height: 100vh;
+}
