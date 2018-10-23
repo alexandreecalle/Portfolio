@@ -56,6 +56,11 @@ position: static;
     padding-left: 20px;
 }
 
+.titre-header {
+    color: #f25252;
+    padding-left: 100px;
+    font-family: "Norwester";
+}
 .text-logo-header{
     color: #f25252;
     font-family: "Norwester";
@@ -68,10 +73,15 @@ h2 span{
 }
 
 
-.titre h3{
+.titre-header h3{
     font-size: 15px;
     padding: 20px 0;
+    font-family: "Montserrat"
     
+}
+
+.titre-header h1{
+    font-size: 10px;
 }
 
 

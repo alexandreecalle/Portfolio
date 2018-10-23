@@ -12,7 +12,7 @@ header{
 height: 80px;
 width: 80px;
 margin-top: 35px;
-margin-left: 35px;
+margin-left: 15px;
 
     
 }
@@ -23,4 +23,11 @@ margin-left: 35px;
 }
 .section1 .titre{
     text-align: center;
+    font-family: "Norwester";
+    color: #f25252;
+
+}
+
+.titre h1{
+    font-size: 70px;
 }
