@@ -1,7 +1,14 @@
 
 
+/*Header*/
+.nav{
+    padding-left: 150px;
+}
+header{
+    background-color:#0a2239;
+}
 
-/*Header-Accueil*/
+/*Acceuil*/
 .triangle-noir{
     background-color: #0a2239;
     height: 100vh;  
@@ -13,9 +20,7 @@ clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 
 }
 
-.nav{
-    padding-left: 150px;
-}
+
 
 
 

@@ -1,0 +1,95 @@
+/* Header*/
+header{
+    background-color: #89023e;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.logo img{
+height: 80px;
+width: 80px;
+margin-top: 35px;
+margin-left: 15px;
+
+    
+}
+/*Section*/
+.section1
+{
+    background-color: #89023e;
+}
+.section1 .titre{
+    text-align: center;
+    font-family: "Norwester";
+    color: #f25252;
+
+}
+
+.titre h1{
+    font-size: 70px;
+    padding-top: 300px;
+    
+}
+
+.titre h3{
+    font-family: "Montserrat";
+    font-size: 20px;
+
+}
+.contact-text{
+    -webkit-clip-path: polygon(100% 50%, 0 0, 0 100%);
+clip-path: polygon(100% 50%, 0 0, 0 100%);
+background-color: #0a2239;
+height: 100vh;
+}
+
+/* Formulaire */
+
+
+#name,#email{
+    margin-top: 350px;
+    
+}
+#message{
+margin-top: 5px;
+margin-bottom: 5px;
+    
+    
+}
+#name,#message{
+    margin-left: 1000px;
+}
+#name,#email,#message{
+    background-color:rgb(255, 250, 247, 0.4);
+    opacity: 0,4;
+    border: #0a2239;
+    color: #89023e;
+
+}
+
+#send{
+    margin-left:230px;
+     background-color: #89023e;
+     border-color:#fffaf7;
+     opacity: 0.8;
+     color:#fffaf7;
+}
+
+#name,#email,#message,#send{
+    font-family: "Montserrat";
+    border-radius: 4px;
+    
+    
+    
+}
+
+input::placeholder{
+    color:rgb(255,250,247,0.5);
+}
+
+#map{
+    
+}
