@@ -67,8 +67,13 @@ h2 span{
     color: #89023e;
 }
 
+.text-titre {
+    color: #f25252;
+    padding-left: 100px;
+    font-family: "Norwester";
+}
 
-.titre h3{
+.text-titre h3{
     font-size: 15px;
     padding: 20px 0;
     
