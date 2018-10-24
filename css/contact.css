@@ -6,13 +6,13 @@ header{
     background-color:#0a2239;
 
 }
-
 .logo img{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     margin-left: 15px;
-    margin-bottom: 100px;
+    margin-top: 15px;
 }
+
 
 /*Acceuil*/
 .triangle-noir{
@@ -29,8 +29,8 @@ clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 .polygone-rose{
     background-color: #89023e;
     height: 100vh;
-    padding: 0;
-    margin: 0;
+    width: 100vw;
+    
 }
 
 .contact h1{
@@ -60,22 +60,27 @@ font-size: 80px;
     margin-left: 485px; 
     padding: 0;
     
+    
    
 }
 .email img{
     height: 50vh;
-    width: 1400px;
+    width: 1385px;
+    z-index: 0;
 }
 
-.email2 {
-    margin-left: 385px; 
+.map{
+    margin-left: 150px; 
     padding: 0;
+    z-index: 0;
+    
     
    
 }
-.email2 img{
+.map img{
     height: 50vh;
-    width: 1600px;
+    width: 1705px;
+    z-index: 0;
 }
 form{
    
