@@ -44,14 +44,8 @@ margin-top: 180px;
     
 }
 
-.info-contact h3
 
-{
-    color: antiquewhite;
-    font-size: 19px;
-    font-family: "Montserrat";
-    padding-left: 30px;
-}
+
 
 
 
@@ -109,6 +103,7 @@ input::placeholder{
 
 #name{
     margin-bottom: 5px;
+    margin-top: 300px;
     
 }
 
@@ -141,5 +136,10 @@ margin-bottom: 5px;
     border: none;
 }
 
+#map{
+    margin-top: 300px;
+    margin-left: 100px;
+    
+}
 
  

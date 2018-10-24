@@ -24,6 +24,7 @@ z-index: 10;
 clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 
 
+
 }
 
 .polygone-rose{
@@ -37,5 +38,21 @@ clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
     font-size: 100px;
     margin-top: 180px;
 }        
-        
 
+.alexandre{
+    justify-content: flex-end;
+    
+}
+
+.alexandre img{
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.alexandre p{
+    margin-top: 50px;
+    margin-left: 1000px;
+    font-family: "Montserrat";
+    color:#0a2239;
+    font-size: 25px;
+}
