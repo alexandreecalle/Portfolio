@@ -32,3 +32,10 @@ clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
     width: 100vw;
     
 }
+
+.apropos h1{
+    font-size: 100px;
+    margin-top: 180px;
+}        
+        
+

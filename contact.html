@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/commun.css">
     <link rel="stylesheet" href="css/hover/hover-min.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet'/> 
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script> 
 
        
 </head>
@@ -40,31 +42,32 @@
             </div>
         </div>
     </header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="triangle-noir col-md-6 col-sm-6">
-                <div class="titre contact">
-                    <h1>CONTACT</h1>
-                </div>
-                <div class="info-contact col-md-">
-                    <h3>
-                        Email : alexandre.ecl.pro@gmail.com
-                    </h3>
-                </div>
-            </div>
-            <div class="polygone-rose col-md-12">
-                <div class=" email-container col-md-12 col-sm-12">
-                    <div class="email">
-                        <img src="img/email-thumbnail.jpeg" alt="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="triangle-noir col-md-6 col-sm-6">
+                    <div class="titre contact">
+                        <h1>CONTACT</h1>
                     </div>
-                    <div class=" map-container col-md-12 col-sm-12">
+                    <div class="info-contact col-md-4">
+                        <h3>
+                            Email : alexandre.ecl.pro@gmail.com
+                        </h3>
+                    </div>
+                </div>
+                <div class="polygone-rose col-md-12">
+                    <div class=" email-container col-md-12 col-sm-12">
+                        <div class="email">
+                                <button type="button" class="btn btn-info btn-lg hvr-wobble-horizontal" data-toggle="modal" data-target="#myEmail">E-Mail</button>
+                        </div>
+                        <div class=" map-container col-md-12 col-sm-12">
                             <div class="map" >
-                        <img src="img/email-thumbnail2.jpeg" class="hvr-forward" alt="">
+                                <button type="button" class="btn btn-info btn-lg hvr-wobble-horizontal" data-toggle="modal" data-target="#myMap">CARTE</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <footer>
         <div class="container fluid">
             <div class="row">
@@ -77,12 +80,42 @@
                    <a href=""><img src="img/gmail-logo.png" class="hvr-grow" alt=""></a>
                    <a href="https://github.com/alexandreecalle"><img src="img/github-logo.png" class="hvr-grow" alt=""></a>
                 </div>
-            </div>
-        </div>
+            </div><!--div- row-->
+        </div> <!--div container-fluid-->
     </footer>
 
+    <!--Modal Email-->
+    <div id="myEmail" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <form>
+                        <span><input type="text" placeholder="Nom/Prénom" style="width:470px"id="name"></span>
+                        <span><input type="email" placeholder="Email" style="width: 470px" id="email"></span>
+                        <div><input type="text" placeholder="Message" style="width: 470px; height: 250px; "  id="message"></div>
+                        <div class="send "><input type="submit" value="Envoyer le message" style="width: 470px;" id="send"></div>
+                    </form> 
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!--Modal Carte-->
+    <div id="myMap" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div id='map' style='width: 400px; height: 300px;'></div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    
 
 
+
+    <script>mapboxgl.accessToken = 'pk.eyJ1IjoibGV2aXNreSIsImEiOiJjam5scGxzYmYwMXB2M2tuOG5lazQxZnRiIn0.Fe3sdLY939Xyrg58VP5oKg';var map = new mapboxgl.Map({container: 'map',style: 'mapbox://styles/mapbox/streets-v10'});</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 

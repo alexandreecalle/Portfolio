@@ -1,4 +1,8 @@
-/*Header*/
+
+body{
+    background-color:#0a2239;
+}
+/*Header*/ 
 .nav{
     padding-left: 150px;
 }
@@ -27,15 +31,16 @@ clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 }
 
 .polygone-rose{
-    background-color: #89023e;
+    background-color: #0a2239;
     height: 100vh;
-    width: 100vw;
+    
     
 }
 
 .contact h1{
 
-font-size: 80px;
+font-size: 100px;
+margin-top: 180px;
     
 }
 
@@ -54,44 +59,48 @@ font-size: 80px;
 
 
 
-/* Formulaire */
 
+
+/*reset modal*/
+
+.modal-content{
+    background-color: rgb(255,255,255,0);
+    border: 0px;
+}
 .email {
     margin-left: 485px; 
     padding: 0;
+
     
     
-   
+  /* Formulaire Modal*/ 
 }
-.email img{
+.email button{
     height: 50vh;
     width: 1385px;
     z-index: 0;
+    background-image: url(../img/email-thumbnail.jpg);
+    color: #89023e;
+    font-size: 60px;
+    font-family: "Norwester";
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
 }
 
-.map{
-    margin-left: 150px; 
-    padding: 0;
-    z-index: 0;
-    
-    
-   
-}
-.map img{
-    height: 50vh;
-    width: 1705px;
-    z-index: 0;
-}
-form{
-   
-}
-#name,#email,#message{
-    background-color:rgb(255, 250, 247, 0.4);
+#name,#email,#message,#send{
+    background-color:#89023e;
     opacity: 0,4;
     border: #0a2239;
-    color: #89023e;
-
+    color: #fffaf7;
+    font-family: "Montserrat";
 }
+
+
+
+
+   
+
 
 input::placeholder{
     color:rgb(255,250,247,0.5);
@@ -100,12 +109,37 @@ input::placeholder{
 
 #name{
     margin-bottom: 5px;
-    margin-top: 100px;
+    
 }
 
 #email{
-    
+margin-bottom: 5px;
 }
 #message{
     margin-bottom: 5px;
 }
+
+ /* Map modal*/
+ .map{
+    margin-left: 145px; 
+    padding: 0;
+    z-index: 0;
+    
+    
+   
+}
+.map button{
+    height: 50vh;
+    width: 1710px;
+    z-index: 0;
+    background-image: url(../img/map-thumbnail.jpeg);
+    color: #89023e;
+    font-size: 60px;
+    font-family: "Norwester";
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+
+ 
