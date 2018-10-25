@@ -9,17 +9,14 @@
 }
 
 /*Footer*/
-
 footer{
     height: 14vh;
     background-color: #0a2239;
-    
 }
 
-
 .logo-footer{
- padding-top: 50px; 
- justify-content: center;  
+    padding-top: 50px; 
+    justify-content: center;  
 }
 
 .logo-footer img{
@@ -28,15 +25,13 @@ footer{
 
 .copyright{
     padding-top: 50px; 
- justify-content: center; 
- color: antiquewhite;
+    justify-content: center; 
+    color: antiquewhite;
 }
 .copyright h3{
-font-size: 20px;
-font-family: "Montserrat";
-
+    font-size: 20px;
+    font-family: "Montserrat";
 }
-
 
 /*Navbar*/
 .nav-link{
@@ -46,9 +41,7 @@ font-family: "Montserrat";
     
 }
 
-
 /*Titre*/
-
 .titre {
     color: #f25252;
     padding-left: 100px;

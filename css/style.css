@@ -13,29 +13,19 @@ header{
     background-color: #0a2239;
     height: 100vh;  
     position: absolute;
-z-index: 10;
--webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
-
-
+    z-index: 10;
+    -webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 }
-
-
-
-
 
 #slidy-container { 
-
-  overflow: hidden; 
-  margin: 0; 
-  padding: 0;
- z-index:9;
- height: 100vh;
- 
- 
-
-
+    overflow: hidden; 
+    margin: 0; 
+     padding: 0;
+    z-index:9;
+    height: 100vh;
 }
+
 #slidy img{
     height:100vh;
     width: 100vw;
@@ -43,18 +33,15 @@ clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
     position: static;
 } 
 
-.logo-header
-{
--webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
- clip-path: polygon(0 0, 0% 100%, 100% 100%);
-background-color: #f25252;
-height: 300px;
-width: 300px;
-margin-left: 100px;
-margin-top: 100px;
-position: static;
-
-
+.logo-header{
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    background-color: #f25252;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: static;
 }
 
 .logo-header .img{
@@ -67,6 +54,7 @@ position: static;
     padding-left: 100px;
     font-family: "Norwester";
 }
+
 .text-logo-header{
     color: #f25252;
     font-family: "Norwester";
@@ -83,15 +71,12 @@ h2 span{
     font-size: 15px;
     padding: 20px 0;
     font-family: "Montserrat"
-    
 }
 
 .titre-header h1{
     font-size: 55px;
 }
 
-
-/*Footer*/
 
 
 

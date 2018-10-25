@@ -1,7 +1,10 @@
 /*Body*/
-#portfolio-body{width:100%;overflow-x: hidden}
+#portfolio-body{
+    width:100%;overflow-x: hidden
+}
 
-#portfolio-body .container-fluid{
+#portfolio-body .container-fluid
+{
     padding:0 !important
 }
 
@@ -14,7 +17,6 @@
 }
 header{
     background-color:#0a2239;
-
 }
 .logo img{
     height: 60px;
@@ -29,91 +31,84 @@ header{
     background-color: #0a2239;
     height: 100vh;  
     position: absolute;
-z-index: 10;
--webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
-
+    z-index: 10;
+    -webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 }
 
 .polygone-rose{
     background-color: #0a2239;
     height: 100vh;
     width: 100vw;
-    
 }
 
 .portfolio h1{
-
     font-size: 100px;
-    margin-top: 180px;
-        
-    }
+    margin-top: 180px;   
+}
 
 
 /*Modal*/
 .polygone-rose button{
-position: absolute;
-height: 100vh;
-border-radius: 0px;
-border: none;
+    position: absolute;
+    height: 100vh;
+    border-radius: 0px;
+    border: none;
 }
 
 
 .polygone-rose .fireshot{
     left: 1430px;
     -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-width: 485px;
-background-image: url(../img/fireshot-photo.png);
-background-size: cover;
-background-position: center;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    width: 485px;
+    background-image: url(../img/fireshot-photo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .polygone-rose .retrospect{
     left: 1430px;
     -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
-clip-path: polygon(100% 0, 0 0, 0 100%);
-width: 485px;
-background-image: url(../img/retrospect-photo.png);
-background-size: cover;
-background-position: center;
-
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    width: 485px;
+    background-image: url(../img/retrospect-photo.png);
+    background-size: cover;
+    background-position: center;
 }
+
 .polygone-rose .eldritch{
     left: 945px;
     -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
-clip-path: polygon(100% 0, 0 0, 100% 100%);   
-width: 485px;
-background-image: url(../img/eldritch-photo.png);
-background-size: cover;
-background-position: center;
-
+    clip-path: polygon(100% 0, 0 0, 100% 100%);   
+    width: 485px;
+    background-image: url(../img/eldritch-photo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .polygone-rose .bootstrap2{
     left: 950px;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
-clip-path: polygon(0 0, 0 100%, 100% 100%);
-width: 480px;
-background-image: url(../img/bootstrap2.png);
-background-size: cover;
-background-position: center;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    width: 480px;
+    background-image: url(../img/bootstrap2.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .polygone-rose .meteor{
     left: 190px;
     -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-width: 760px;
-background-image: url(../img/meteor.jpg);
-background-size: cover;
-background-position: center;
-
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    width: 760px;
+    background-image: url(../img/meteor.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .modal-body img{
     max-width: 100%;
-    
 }
 
 .modal-content{
@@ -125,9 +120,7 @@ background-position: center;
 }
 
 .modal-header h2{
-margin-left: 140px;
-color:#f25252;
-font-family: "Montserrat"
-
-
+    margin-left: 140px;
+    color:#f25252;
+    font-family: "Montserrat"
 }

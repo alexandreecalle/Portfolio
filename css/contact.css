@@ -21,37 +21,22 @@ header{
     background-color: #0a2239;
     height: 100vh;  
     position: absolute;
-z-index: 10;
--webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
+    z-index: 10;
+    -webkit-clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 20% 100%, 0 100%, 0 0);
 
 
 }
 
 .polygone-rose{
     background-color: #0a2239;
-    height: 100vh;
-    
-    
+    height: 100vh; 
 }
 
 .contact h1{
-
-font-size: 100px;
-margin-top: 180px;
-    
+    font-size: 100px;
+    margin-top: 180px;   
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*reset modal*/
 
@@ -64,9 +49,9 @@ margin-top: 180px;
     padding: 0;
 
     
-    
+}    
   /* Formulaire Modal*/ 
-}
+
 .email button{
     height: 50vh;
     width: 1385px;
@@ -88,26 +73,19 @@ margin-top: 180px;
     font-family: "Montserrat";
 }
 
-
-
-
-   
-
-
 input::placeholder{
     color:rgb(255,250,247,0.5);
 }
 
-
 #name{
     margin-bottom: 5px;
-    margin-top: 300px;
-    
+    margin-top: 300px; 
 }
 
 #email{
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+
 #message{
     margin-bottom: 5px;
 }
@@ -116,11 +94,9 @@ margin-bottom: 5px;
  .map{
     margin-left: 145px; 
     padding: 0;
-    z-index: 0;
-    
-    
-   
+    z-index: 0; 
 }
+
 .map button{
     height: 50vh;
     width: 1710px;
@@ -136,8 +112,7 @@ margin-bottom: 5px;
 
 #map{
     margin-top: 300px;
-    margin-left: 100px;
-    
+    margin-left: 100px; 
 }
 
  
